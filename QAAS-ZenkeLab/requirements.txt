@@ -1,0 +1,21 @@
+numpy
+torch==2.1.2
+scipy
+matplotlib==matplotlib==3.8.2      # plotting
+seaborn         # plotting
+h5py            # Data file format
+jupyter         # notebook support
+soundfile       
+tables
+torchaudio==2.1.2
+torchvision==0.16.2
+tonic
+xlsxwriter
+hydra-core
+neurobench
+pandas
+snntorch
+spiffyplots==0.6.1
+omegaconf
+KDEpy==1.1.9
+git+https://github.com/fzenke/randman

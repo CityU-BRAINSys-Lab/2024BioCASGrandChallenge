@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Train Single",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/train-single.py",
+        "console": "integratedTerminal",
+        "args": [
+          "training.lr=0.01",
+          "evaluation.half=True",
+          "training.nb_epochs_train=1",
+          "device='cuda:0'"
+        ],
+        "env": {
+          "PYTHONPATH": "${workspaceFolder}"
+        },
+        "justMyCode": true
+      }
+    ]
+  }
+  
